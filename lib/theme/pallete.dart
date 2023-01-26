@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Pallete {
-  static bool changedTheme = false; // if false, it will be black theme.
+  static bool changedTheme = true; // if false, it will be light theme.
   // Colors
   static const blackColor = Color.fromRGBO(1, 1, 1, 1); // primary color
   static const greyColor = Color.fromRGBO(26, 39, 45, 1); // secondary color

@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
             showDialog(
                 context: context,
                 builder: ((context) => AlertDialog(
-                      backgroundColor: Theme.of(context).backgroundColor,
+                      backgroundColor: Theme.of(context).colorScheme.background,
                       content: TextField(
                         autofocus: true,
                         controller: taskTextEditingController,

@@ -35,10 +35,10 @@ class _TaskCardState extends State<TaskCard> {
             children: <Widget>[
               SlidableAction(
                 autoClose: true,
-                backgroundColor: Pallete.changedTheme == true
+                backgroundColor: Pallete.changedTheme
                     ? Pallete.blackColor
                     : Pallete.whiteColor,
-                foregroundColor: Pallete.changedTheme == true
+                foregroundColor: Pallete.changedTheme
                     ? Pallete.whiteColor
                     : Pallete.blackColor,
                 onPressed: widget.deleteTask,
